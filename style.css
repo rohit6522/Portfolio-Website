@@ -1,0 +1,488 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+    display: inline-block;
+}
+
+.main.max-width.home-content {
+    display: inline;
+    display: flex;
+}
+
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba(220, 20, 60, 0.288);
+    box-shadow: 2px 2px 20px 23px rgba(0, 0, 255, 0.297);
+    font-family: 'puppins', sans-serif;
+    padding: 10px 0;
+
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.navbar .logo a:hover {
+    color: black;
+}
+
+.navbar .logo a span {
+    color: black;
+}
+
+.navbar .menu li {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+
+}
+
+.navbar .menu li a:hover {
+    color: crimson;
+}
+
+.navbar .sticky {
+    padding: 15px 0;
+}
+
+.navbar .menu li a:hover {
+    color: black;
+
+}
+
+/* main section style  */
+
+
+.main {
+    display: flex;
+    background-color: gray;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: 'puppins', sans-serif;
+}
+
+.main .home-content {
+    margin-left: 90px;
+}
+
+.main .max-width {
+    margin: auto 0 auto 40px;
+
+}
+
+.main .home-content .text-1 {
+    font-size: 27px;
+
+}
+
+.main .home-content .text-2 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.main .home-content .text-3 {
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.main .home-content .text-3 span {
+    color: crimson;
+    font-weight: 500;
+}
+
+.main .home-content .text-2 span {
+    color: crimson;
+    font-weight: 500;
+}
+
+/* ---------------about css ------------ */
+
+.about {
+    padding: 100px 0;
+    font-family: 'pappins', sans-serif;
+    background-color: #ccc;
+}
+
+.about .title,
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* expt2  */
+.about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about .about-content .col-left {
+    width: 45%;
+}
+
+.about .about-content .col-left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 190px;
+    box-shadow: 2px 2px 20px 23px rgba(0, 0, 255, 0.297);
+
+}
+
+.about .about-content .col-right {
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+
+.about .about-content .col-right .text {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.about .about-content .col-right .text span {
+    color: crimson;
+}
+
+.about .about-content .col-right p {
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.about .about-content .col-right a {
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 1px 30px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 20px 15px rgba(0, 0, 255, 0.297);
+
+}
+
+.about .about-content .col-right a:hover {
+    color: crimson;
+    background: none;
+}
+
+/* ==============certificate ------------=====------ */
+.cer {
+    font-family: 'pappins', sans-serif;
+    background-color: #ffffffc3;
+
+}
+
+.col1-left {
+    margin-left: 100px;
+    margin-left: 130px;
+}
+
+.about-certificate img {
+    display: inline;
+    gap: 30px;
+
+}
+
+/* .about-certificate {
+    border-left: 5px solid #6b2a0b;
+    border-right: 5px solid #6b2a0b;
+} */
+
+.about-certificate .certext p {
+    font-family: 'pappins', sans-serif;
+    text-align: center;
+    background: crimson;
+    color: wheat;
+    margin-left: 125px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 2px solid red;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.about-certificate .certext p:hover{
+    transform: scale(1.1);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.max-width {
+    margin-left: 118px;
+}
+
+.Cer .titlee {
+    font-family: 'Ubuntu', sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.cer .about-certificate.col1-left {
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+/* all similer content style ----------- */
+
+.about,
+.cer,
+.contact {
+    font-family: 'poppins', sans-serif;
+}
+
+
+
+
+/* =================education ================ */
+
+.education-section {
+    width: 100%;
+    max-width: 900px;
+    background-color: #ffffffc4;
+    padding: 30px;
+    cursor: pointer;
+    border-radius: 45px;
+    margin-top: 50px;
+    margin-left: 20rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.education-section h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 4px solid #6b2a0b;
+    border-right: 4px solid #6b2a0b;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.education-item:hover {
+    transform: scale(1.1);
+
+}
+
+.education-item h3 {
+    font-size: 25px;
+    color: crimson;
+    font-weight: 600;
+}
+
+.institution {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #555;
+}
+
+
+
+
+/*---------------- contact style start ---------------- */
+
+
+.contact {
+    background-color: #ccc;
+}
+
+form {
+    max-width: 630px;
+    margin: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 73px;
+    border-left: 4px solid #6b2a0b;
+    border-right: 4px solid #6b2a0b;
+    border-style: dotted;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px 15px rgba(0, 0, 255, 0.297);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sms {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    border-radius: 20px;
+    margin-left: 135px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #4CAF50;
+    color: black;
+    width: 54%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    padding: 12px 20px;
+   transition: all 0.3s ease;
+    margin-bottom: 25px
+}
+
+button:hover {
+    background-color: crimson;
+    box-shadow: 2px 2px 20px 15px rgba(0, 0, 255, 0.297);
+    font-size: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-top: 60px;
+
+}
+
+
+
+
+
+
+/* ===================footer ============= */
+
+
+.social-icons a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.social-icons a :hover {
+    transform: scale(1.1);
+}
+
+.it {
+    border-radius: 70%;
+}
+
+.tw {
+    border-radius: 70%;
+}
+
+.fb {
+    border-radius: 70%;
+}
+
+.ld {
+    border-radius: 70%;
+}
+
+.yt {
+    border-radius: 70%;
+}
+
+.footercontent p {
+    width: 100%;
+    margin-top: -55px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
